@@ -1,0 +1,2 @@
+INDEX VERSION 1.130+C:\Users\Suelen\exercicios_iniciante\.metadata\.plugins\org.eclipse.jdt.core
+2525604767.index
