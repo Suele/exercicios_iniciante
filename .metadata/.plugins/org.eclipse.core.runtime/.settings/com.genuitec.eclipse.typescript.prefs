@@ -1,4 +1,5 @@
 eclipse.preferences.version=1
+migrated=true
 overriddenByCSS=,syntaxColoring.numberLiteral.color,syntaxColoring.operator.color,syntaxColoring.comment.color,syntaxColoring.keyword.color,syntaxColoring.regExpLiteral.color,syntaxColoring.stringLiteral.color,syntaxColoring.identifier.color,syntaxColoring.punctuation.color,
 syntaxColoring.bracket.color=216,216,216
 syntaxColoring.comment.color=199,221,12
