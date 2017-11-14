@@ -4,12 +4,11 @@ package iniciante;
 
 import java.util.Scanner;
 
-public class MenorNumeroComquatroValores {
+public class MenorNumeroComQuatroValores {
 	public static void main(String[] args) {
-		
+
 		Scanner dadosDoTeclado = new Scanner(System.in);
 		
 		
-
 	}
 }
