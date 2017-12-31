@@ -1,3 +1,5 @@
+//Compara os valores das variaveis.
+
 package iniciante;
 
 import java.util.Scanner;
