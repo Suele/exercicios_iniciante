@@ -33,7 +33,7 @@ public class MaiorMenorOuIgual {
 			System.out.println(primeiroNumero + " != " + segundoNumero);
 		}
 		
-		if
+		
 
 	}
 }
