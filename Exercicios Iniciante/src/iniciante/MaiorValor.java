@@ -2,9 +2,12 @@
 
 package iniciante;
 
+import java.util.Scanner;
+
 public class MaiorValor {
 	public static void main(String[] args) {
 
+		/*
 		int primeiroValor = 3;
 		int segundoValor = 6;
 		int terceiroValor = 14;
@@ -26,6 +29,22 @@ public class MaiorValor {
 		}
 
 		System.out.println("Maior valor: " + valorMaior);
+		
+		*/
+		
+		// Com loop
+		
+		Scanner dadosUsuario = new Scanner(System.in);
+		
+		int valor = 0;
+		int maiorValor = 0;
 
+		for (int i = 1; i <= 3; i++) {
+			System.out.println("Digite um número: ");
+			valor = dadosUsuario.nextInt();
+
+		}
+		
+		
 	}
 }
