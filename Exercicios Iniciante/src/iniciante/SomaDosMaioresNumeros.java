@@ -16,6 +16,7 @@ public class SomaDosMaioresNumeros {
 		segundoValor = 5;
 		terceiroValor = 15;
 
+		// verifica se os números são todos diferentes.
 		if ((primeiroValor != segundoValor && segundoValor != terceiroValor) && 
 				(segundoValor != primeiroValor && primeiroValor != terceiroValor) 
 				&& (terceiroValor != primeiroValor && primeiroValor != segundoValor)) {
