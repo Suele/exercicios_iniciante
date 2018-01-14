@@ -30,6 +30,17 @@ public class Programa {
 		minhaConta.deposita(190);
 		System.out.println("Outro novo saldo: " + minhaConta.saldo);
 		System.out.println("");
+		
+		Funcionario funcionario = new Funcionario();
+		
+		funcionario.nome = "Pedro";
+		funcionario.departamento = "Compras";
+		funcionario.data.dia = 12;
+		funcionario.data.mes = 01;
+		funcionario.data.ano = 2018;
+		
+		
+		
 	}
 
 }
