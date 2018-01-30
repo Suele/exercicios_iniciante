@@ -9,7 +9,7 @@ public class MaiorMenorOuIgual {
 		int primeiroNumero = 10;
 		int segundoNumero = 10;
 
-		if (primeiroNumero != segundoNumero) {
+		if (primeiroNumero != segundoNumero && primeiroNumero != 0 && segundoNumero != 0) {
 			if (primeiroNumero > segundoNumero) {
 				System.out.println(primeiroNumero + " > " + segundoNumero);
 			}
@@ -17,8 +17,14 @@ public class MaiorMenorOuIgual {
 				System.out.println(segundoNumero + " > " + primeiroNumero);
 			}
 
-		} else {
-			System.out.println("Os valores devem ser diferentes.");
+		} else if (primeiroNumero == segundoNumero) {
+			System.out.println("Os valores não podem serem iguais.");
+		} else if (primeiroNumero == 0) {
+			System.out.println("O primeiro valor não pode ser zero.");
+		} else if (segundoNumero == 0) {
+			System.out.println("O segundo valor não pode ser zero.");
+		} else if (primeiroNumero == 0 && segundoNumero == 0) {
+			System.out.println(" Os valores não podem serem zero.");
 		}
 
 	}
