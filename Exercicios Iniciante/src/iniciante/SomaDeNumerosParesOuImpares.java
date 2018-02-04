@@ -6,8 +6,8 @@ public class SomaDeNumerosParesOuImpares {
 
 	public static void main(String[] args) {
 
-		int primiroNumero = 23;
-		int segundoNumero = 10;
+		int primiroNumero = 11;
+		int segundoNumero = 11;
 		int total = (primiroNumero + segundoNumero);
 
 		if (total != 0) {
