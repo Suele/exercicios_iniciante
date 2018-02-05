@@ -1,3 +1,4 @@
+package iniciante;
 // Algoritmo que verifica se o número digitado é par ou ímpar.
 
 import java.util.Scanner;
