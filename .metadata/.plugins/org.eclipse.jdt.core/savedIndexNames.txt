@@ -14,7 +14,6 @@ INDEX VERSION 1.130+C:\Users\Suelen\exercicios_iniciante\.metadata\.plugins\org.
 2664247221.index
 1342908693.index
 1768259474.index
-1049509958.index
 2595158783.index
 3448122315.index
 2871722055.index
