@@ -2,8 +2,8 @@ package orientacao.objetos.calculadora;
 
 public class Calculadora {
 
-	public double primeiroValor;
-	public double segundoValor;
+	private double primeiroValor;
+	private double segundoValor;
 
 	public Calculadora(double primeiroValor, double segundoValor) {
 		this.primeiroValor = primeiroValor;
