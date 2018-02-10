@@ -4,15 +4,32 @@ public class Calculadora {
 
 	private double primeiroValor;
 	private double segundoValor;
+	private String sinalPrimeiroValor;
+	private String sinalSegundoValor;
 
-	public Calculadora(double primeiroValor, double segundoValor) {
+	public Calculadora(String sinalPrimeiroValor, double primeiroValor, String sinalSegundoValor, double segundoValor) {
 		this.primeiroValor = primeiroValor;
 		this.segundoValor = segundoValor;
+		this.sinalPrimeiroValor = sinalPrimeiroValor;
+		this.sinalSegundoValor = sinalSegundoValor;
 	}
 
 	double soma() {
-		double total = (this.primeiroValor + this.segundoValor);
-		return total;
+
+		double total = 0;
+
+		if (sinalPrimeiroValor.equals(sinalSegundoValor)) {
+			System.out.print(sinalPrimeiroValor);
+			return total = (this.primeiroValor + this.segundoValor);
+		} else if (sinalPrimeiroValor != sinalSegundoValor && primeiroValor > segundoValor) {
+			System.out.println(sinalPrimeiroValor);
+			return total = (this.primeiroValor + this.segundoValor);
+		} else if (primeiroValor != segundoValor && segundoValor > primeiroValor) {
+			System.out.println(sinalSegundoValor);
+			return total = (this.primeiroValor + this.segundoValor);
+		}
+
+		return 0;
 	}
 
 	double subtracao() {
