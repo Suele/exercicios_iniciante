@@ -14,7 +14,7 @@ public class Calculadora {
 		this.sinalSegundoValor = sinalSegundoValor;
 	}
 
-	double soma() {
+	public double soma() {
 
 		double total = 0;
 
@@ -22,10 +22,10 @@ public class Calculadora {
 			System.out.print(sinalPrimeiroValor);
 			return total = (this.primeiroValor + this.segundoValor);
 		} else if (sinalPrimeiroValor != sinalSegundoValor && primeiroValor > segundoValor) {
-			System.out.println(sinalPrimeiroValor);
+			System.out.print(sinalPrimeiroValor);
 			return total = (this.primeiroValor + this.segundoValor);
 		} else if (primeiroValor != segundoValor && segundoValor > primeiroValor) {
-			System.out.println(sinalSegundoValor);
+			System.out.print(sinalSegundoValor);
 			return total = (this.primeiroValor + this.segundoValor);
 		}
 
