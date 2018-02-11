@@ -18,8 +18,8 @@ public class Calculadora {
 
 		double total = 0;
 
-		if (sinalPrimeiroValor.equals(sinalSegundoValor)) {
-			System.out.print(sinalPrimeiroValor);
+		if (sinalPrimeiroValor.equals("+") && sinalSegundoValor.equals("+")) {
+			System.out.print("+");
 			return total = (this.primeiroValor + this.segundoValor);
 		} else if (sinalPrimeiroValor != sinalSegundoValor && primeiroValor > segundoValor) {
 			System.out.print(sinalPrimeiroValor);
@@ -33,32 +33,47 @@ public class Calculadora {
 	}
 
 	double subtracao() {
-		double resultado = 0;
-		if (this.primeiroValor > this.segundoValor) {
-			resultado = (this.primeiroValor + this.segundoValor);
-		} else {
-			System.out.println("O primeiro valor digitado não pode ser menor do que o segundo valor.");
-		}
-		return resultado;
 
+		double resultado = 0;
+
+		if (sinalPrimeiroValor != sinalSegundoValor && primeiroValor > segundoValor) {
+			System.out.print(sinalPrimeiroValor);
+			return resultado = (primeiroValor - segundoValor);
+		} else if (sinalPrimeiroValor != sinalSegundoValor && segundoValor > primeiroValor) {
+			System.out.print(sinalSegundoValor);
+			return resultado = (primeiroValor - segundoValor);
+		} else if (sinalPrimeiroValor.equals(sinalSegundoValor)) {
+			System.out.print(sinalPrimeiroValor);
+			return resultado = (primeiroValor + segundoValor);
+		}
+		return 0;
 	}
 
 	double divisao() {
+
 		double quociente = 0;
-		if (this.segundoValor > 0) {
-			quociente = (this.primeiroValor / this.segundoValor);
+
+		if (sinalPrimeiroValor.equals(sinalSegundoValor)) {
+			System.out.print(sinalPrimeiroValor);
+			return quociente = (primeiroValor / segundoValor);
 		} else {
-			System.out.println("");
+			System.out.print("-");
+			return quociente = (primeiroValor / segundoValor);
 		}
-		return quociente;
 	}
 
 	double multiplicacao() {
+
 		double produto = 0;
-		if (this.primeiroValor > 0 && this.segundoValor > 0) {
-			produto = (this.primeiroValor * this.segundoValor);
+
+		if (sinalPrimeiroValor.equals(sinalSegundoValor)) {
+			System.out.print(sinalPrimeiroValor);
+			return produto = (primeiroValor * segundoValor);
+		} else {
+			System.out.print("-");
+			return produto = (primeiroValor * segundoValor);
 		}
-		return produto;
+
 	}
 
 }
