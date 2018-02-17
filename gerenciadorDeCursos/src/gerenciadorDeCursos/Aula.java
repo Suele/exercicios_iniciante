@@ -20,7 +20,7 @@ public class Aula implements Comparable<Aula> {
 
 	@Override
 	public String toString() {
-		return this.titulo + " " + this.tempo;
+		return "[" + "Titulo: " + getTitulo() + ", " + "Tempo: " + getTempo() + " minutos" + "]";
 	}
 
 	@Override
